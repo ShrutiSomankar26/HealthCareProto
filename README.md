@@ -1,6 +1,6 @@
 # HealthApp
 
-Welcome to HealthApp! This application is designed to help users manage their health and wellness effectively.
+Welcome to HealthApp! This application is designed to help users manage their health and wellness effectively for elderly People.
 
 ## Description
 
