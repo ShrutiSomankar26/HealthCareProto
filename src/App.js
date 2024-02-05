@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar';
 import Dashboard from './components/Dashboard';
 import MonitorDiet from './components/MonitorDiet';
 import FindActivities from './components/FindActivities';
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <Router>
       <div>
+      <NavigationBar />
         <Routes>
           <Route path="/" element={<Dashboard />} /> {/* Here we use 'element' prop */}
           <Route path="/find-activities" element={<FindActivities />}/>

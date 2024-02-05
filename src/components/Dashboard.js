@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import monitorDietIcon from '../images/monitor-diet-icon.png';
 import findActivitiesIcon from '../images/find-activities-icon.png';
@@ -7,38 +7,39 @@ import contactDoctorIcon from '../images/contact-doctor-icon.png';
 import backgroundImg from '../images/background.jpg'; // Assuming you have a background image
 
 const Dashboard = () => {
-  const [medicationReminders, setMedicationReminders] = useState([]);
-  const [activitiesChosen, setActivitiesChosen] = useState([]);
 
-  // Function to add medication reminder
-  const addMedicationReminder = (reminder) => {
-    setMedicationReminders([...medicationReminders, reminder]);
+  const medicationReminders = [
+    { name: "TusQ", time: "9:30 AM" },
+    { name: "TusQ", time: "1:30 PM" },
+    { name: "TusQ", time: "9:30 PM" }
+  ];
+
+  const activity = {
+    walking: 5000,
+    exercise: 45,
+    bookRead: "Atomic Habits",
   };
-
-  // Function to add chosen activity
-  const addChosenActivity = (activity) => {
-    setActivitiesChosen([...activitiesChosen, activity]);
-  };
-
+  
   const pageStyle = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: '100vh', // Ensure the page takes at least the full viewport height
+    minHeight: '100vh',
     padding: '20px',
-    backgroundImage: `url(${backgroundImg})`, // Set background image
+    backgroundImage: `url(${backgroundImg})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   };
 
   const dashboardStyle = {
     maxWidth: '800px',
-    width: '100%', // Ensure the dashboard takes the full width of the page
-    backgroundColor: 'rgba(255, 255, 255, 0.8)', // Semi-transparent white background
+    width: '100%',
+    backgroundColor: 'rgba(255, 255, 255, 0.8)',
     borderRadius: '10px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Add a subtle shadow
-    marginBottom: '20px'
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    marginBottom: '20px',
+    padding: '20px'
   };
 
   const titleStyle = {
@@ -46,9 +47,9 @@ const Dashboard = () => {
     color: '#333',
     marginBottom: '20px',
     textAlign: 'center',
-    fontFamily: 'Gill Sans', // Choose a suitable font family
-    textTransform: 'uppercase', // Convert title text to uppercase
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' // Add a shadow effect to the title text
+    fontFamily: 'Gill Sans',
+    textTransform: 'uppercase',
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)'
   };
 
   const featureLinksStyle = {
@@ -80,14 +81,14 @@ const Dashboard = () => {
 
   const buttonTextContainer = {
     marginTop: '10px',
-    color: '#333', // Button text color
-    textDecoration: 'none', // Remove underline
-    cursor: 'pointer', // Show pointer cursor on hover
-    fontWeight: 'bold', // Make the text bold
-    transition: 'color 0.3s ease', // Smooth color transition on hover
-    textAlign: 'center' // Center the text horizontally
+    color: '#333',
+    textDecoration: 'none',
+    cursor: 'pointer',
+    fontWeight: 'bold',
+    transition: 'color 0.3s ease',
+    textAlign: 'center'
   };
-
+  
   return (
     <div style={pageStyle}>
       <div style={dashboardStyle}>
@@ -110,22 +111,24 @@ const Dashboard = () => {
             <div style={buttonTextContainer}>Contact Doctor</div>
           </Link>
         </div>
-      </div>
-      <div>
-        <h2>Medication Reminders</h2>
-        <ul>
-          {medicationReminders.map((reminder, index) => (
-            <li key={index}>{reminder}</li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <h2>Activities Chosen</h2>
-        <ul>
-          {activitiesChosen.map((activity, index) => (
-            <li key={index}>{activity}</li>
-          ))}
-        </ul>
+        <div style={{ marginTop: '40px', color: '#333' }}>
+          <h2 style={{ fontSize: '2rem', marginBottom: '10px', textAlign: 'center' }}>Activity Tracker</h2>
+          <div style={{ textAlign: 'center' }}>
+            <p><b>Walking: {activity.walking} steps</b></p>
+            <p><b>Exercise: {activity.exercise} minutes</b></p>
+            <p><b>Book Read: {activity.bookRead}</b></p>
+          </div>
+        </div>
+        <div style={{ marginTop: '40px', color: '#333' }}>
+          <h2 style={{ fontSize: '2rem', marginBottom: '10px', textAlign: 'center' }}>Medication Reminders</h2>
+          <ul style={{ listStyleType: 'none', padding: '0', textAlign: 'center' }}>
+            {medicationReminders.map((reminder, index) => (
+              <li key={index} style={{ marginBottom: '10px' }}>
+                <strong>{reminder.name}</strong> - {reminder.time}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
