@@ -20,7 +20,7 @@ Welcome to HealthApp for Elderly People! This application is specifically design
 
 ## Features Developed
 
-Based on the research findings, we have developed the following features in HealthApp for Elderly People:
+Based on the research findings, I have developed the following features in HealthApp for Elderly People:
 
 - **Activity/Hobby Finder**: Helps users discover activities and hobbies suitable for their age and interests.
 - **Medication Alarm**: Provides timely reminders for medication intake to ensure adherence to treatment plans.
