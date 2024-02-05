@@ -42,3 +42,28 @@ npm start
 
 4. **Access HealthApp**:
 Once the application is running, open your web browser and go to `http://localhost:3000` to access HealthApp.
+
+## Screenshots
+![Screenshot (388)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/25d6ce6f-0ff8-46ac-a9d7-29aeb650aa62)
+
+![Screenshot (389)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/6e49bf55-a8da-407c-9967-be866d36c491)
+
+![Screenshot (390)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/331f0958-f396-40b6-8cd9-402fce53bd31)
+
+![Screenshot (391)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/2dd92e04-1511-44b4-a745-8aa685ca0ed4)
+
+![Screenshot (392)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/f9c06f51-18ac-4b14-bf53-579a06e241d8)
+
+![Screenshot (393)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/abf6ba5b-75cb-4e54-a90a-df736d96e3dd)
+
+![Screenshot (394)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/c3055a6c-e4de-480a-bd97-e60cb9be6549)
+
+![Screenshot (395)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/1af27759-c4a6-4422-83b3-e2af46097842)
+
+![Screenshot (396)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/5a441251-91a0-44c0-af41-7cc8a7ca8ebd)
+
+![Screenshot (397)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/cde39f5c-382d-4880-bcd9-76d7f7d9a60a)
+
+![Screenshot (398)](https://github.com/ShrutiSomankar26/HealthCareProto/assets/159052734/fbb2608e-18c0-4848-98a5-06ccc134d3c6)
+
+
