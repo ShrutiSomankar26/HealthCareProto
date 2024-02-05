@@ -1,22 +1,35 @@
-# HealthApp
+# HealthApp for Elderly People
 
-Welcome to HealthApp! This application is designed to help users manage their health and wellness effectively for elderly People.
+Welcome to HealthApp for Elderly People! This application is specifically designed to address the unique healthcare needs of individuals aged 65 and above.
 
-## Description
+## Research Findings
 
-HealthApp is a comprehensive health management tool that allows users to track their daily activities, monitor vital health metrics, set goals, and receive personalized recommendations to maintain a healthy lifestyle.
+### Common Health Issues for Elderly People
 
-## Features
+- **Heart Disease**: Aging can cause changes in the heart and blood vessels, increasing the chances of heart disease.
+- **Diabetes**: Inability to process sugar by your body. The risk of getting diabetes increases as one ages.
+- **Dehydration**: Body lacks enough levels of fluids, leading to problems like urinary tract infections, electrolyte imbalance, etc.
+- **Chronic Constipation**: Bloating, indigestion, nausea, and stomach pain.
+- **Mental Health**: Mental health tends to deteriorate with age.
+- **Bone and Joint Problems**: Osteoarthritis, Rheumatoid arthritis, and Muscle aches are common in the elderly.
+- **Cognitive Decline**: Decline in the ability to think, learn, and remember in terms of brain health.
+- **Oral Health Issues**: Root decay, tooth loss, dry mouth, gum disease, and darkened teeth.
 
-- Track daily physical activities such as steps taken, distance traveled, and calories burned.
-- Monitor vital health metrics including heart rate, blood pressure, and sleep patterns.
-- Set personalized health goals and receive notifications to stay on track.
-- Access a database of nutritious recipes and meal plans tailored to individual dietary preferences.
-- Connect with health professionals for personalized consultations and advice.
+### Solutions and Prevention Strategies
+- Proper diet, regular exercise, hydration, mental stimulation, and dental care are crucial elements to mitigate and prevent these health issues.
+
+## Features Developed
+
+Based on the research findings, we have developed the following features in HealthApp for Elderly People:
+
+- **Activity/Hobby Finder**: Helps users discover activities and hobbies suitable for their age and interests.
+- **Medication Alarm**: Provides timely reminders for medication intake to ensure adherence to treatment plans.
+- **Diet Monitoring and Recommendation**: Monitors dietary habits and provides personalized recommendations for maintaining a balanced diet.
+- **Contact Doctor**: Enables users to easily connect with healthcare professionals for consultations and advice.
 
 ## How to Execute
 
-To run HealthApp locally on your machine, follow these steps:
+To run HealthApp for Elderly People locally on your machine, follow these steps:
 
 1. **Clone the Repository**: 
 git clone https://github.com/ShrutiSomankar26/HealthCareProto.git
